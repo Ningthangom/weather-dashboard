@@ -38,10 +38,10 @@ searchBtn.click(function () {
              localStorage.setItem(keyIndexCount, res.name);
             keyIndexCount = keyIndexCount + 1;
 
-            var currentWeatherCard = $(".currentCard").append("<div>").addClass("card-body");
-            currentWeatherCard.empty();
-            var currentCityName = currentWeatherCard.append("<p>");
-            currentWeatherCard.append(currentCityName);
+            var todayWeather = $(".currentCard").append("<div>").addClass("card-body");
+            todayWeather.empty();
+            var currentCityName = todayWeather.append("<p>");
+            todayWeather.append(currentCityName);
 
             var UTC = new Date(res.dt * 1000);
             currentCityName.append(res.name + " " + UTC.toLocaleDateString("en-AU"));
