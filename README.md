@@ -3,6 +3,7 @@
  the user will be able to look up temperature on different cities.
  the application will show the detail of "today's" weather and the next five days.
 
+the app is hosted here: https://ningthangom.github.io/weather-dashboard/
 ![gif](/weather-dashboard.gif)
 
 # How it works
