@@ -18,6 +18,7 @@ the app is hosted here: https://ningthangom.github.io/weather-dashboard/
 -AJAX
 -API
 -JAVASCRIPT
+- css
 
 
 
